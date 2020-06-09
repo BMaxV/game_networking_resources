@@ -17,19 +17,32 @@ Here are some resources:
 
 no experience with these
 
+C#
+
+# godot
+
+https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html
+
+python
+
 # panda
 
 https://docs.panda3d.org/1.10/python/programming/networking/datagram-protocol/client-server-connection
 
 https://github.com/panda3d/panda3d/tree/371e60c768cfd1a1383c5b05f1cab2078014ccea/panda/src/net
 
-# godot
 
-https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html
+# blender
+
+blender's game engine is bascially dead, but in the long long before, a guy I have great respect for made a really good tutorial on sockets:
+
+https://www.youtube.com/watch?v=4xZRfzOtxzA
 
 # pygame 
 
 has nothing except basic sockets for python I think?
+
+Cpp
 
 # c&c remastered open source
 
