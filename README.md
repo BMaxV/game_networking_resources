@@ -13,7 +13,25 @@ anymore. You have deal with who gets what input, when, how it's formatted, what 
 
 When I was still looking into more new games, the question often was "oh but does it have multiplayer" and the answer was often "no" because it's just such a big can of worms.
 
-Here are some resources:
+A possible approach might be via code clone detection and static analysis, to find existing projects with working solution, identifying the shared network related code and extract it into it's library. So here are some resources to maybe do that:
+
+for tokenizing C and C++
+
+https://github.com/dspinellis/tokenizer
+
+A survey paper from 2007 for terminology
+
+https://research.cs.queensu.ca/TechReports/Reports/2007-541.pdf
+
+There are deep learning methods. That's an approach that will probably not work since this is hardly big data. I expect that each project will have single classes that are relevant for comparison, everything else, type use, libraries, naming conventions and especially assumptions over the nature of the network and the needs of the game can differ, so it's safer to assume that they do and just look at them individually. Also the relevant files will not be "big data" "big".
+
+here is some wiki stuff:
+
+https://en.wikipedia.org/wiki/Duplicate_code#Detecting_duplicate_code
+
+Although it seems like the listed approaches might not help here.
+
+Here are some resources for actual code:
 
 no experience with these
 
