@@ -49,3 +49,13 @@ Cpp
 8000 lines of full package. Not sure how it works, but it *does* work. And 80% of it is comments, so that's good.
 
 https://github.com/electronicarts/CnC_Remastered_Collection/blob/master/REDALERT/NETDLG.CPP
+
+# widelands
+
+Is a working, open source game with a multiplayer component. The project is actively being worked on too.
+
+https://www.widelands.org/
+
+https://github.com/widelands/widelands
+
+https://github.com/widelands/widelands/tree/master/src/network
