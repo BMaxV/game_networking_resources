@@ -2,6 +2,18 @@
 
 So netcode is hard. It's like crypto except not so critical when it fails, just totally unfun.
 
+-----
+
+meh, nevermind, steam solved this.
+
+https://partner.steamgames.com/doc/api/ISteamNetworkingSockets
+
+https://github.com/ValveSoftware/GameNetworkingSockets
+
+This is their open source solution to handle messages. the actual real deal steam api has the same names and this one can be used for testing.
+
+-----
+
 Wouldn't it be great if there was just one standard library to import that just handles it for you? Or at least a common resource that explains different approaches?
 
 The most important thing to start with is that having to deal with multiple machines/computers it that it complicates things a lot. You can't just 
